@@ -20,6 +20,13 @@ How is your model performing compared with expectations?
 Metrix: Accuracy, Perplexity, Model Size
 
 Plan:
+1. Download and pre-process the long-text data(IMDB) and short-text data.
+2. Choose a non-selective SSM model for text data processing;
+3. Evaluate: selective SSM is better than non-selective SSM?
+4. Evaluate: Mamba have a greater advantage in a long sequence (256, 512, 1024, 2048…)
+5. Component B:  Hypothesis: Mamba’s advantage over Transformers will increase as sequence length grow
+6. Component B: Hypothesis: Will the combination of Selective Delta and Selective C can achieve better perplexity?
+
 Yes, we are on track with our project. Our next step focus on the process of component B, two hypotheses and the final poster. After all of these, we are going to finalize our final 
 writeup. Besides, we plan to spend more time on to check if our hypotheses are ideal and complex enough for the project, and we will also consider about if we should change our 
 hypothesis or add more details into it. 
