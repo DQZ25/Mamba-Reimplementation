@@ -2,17 +2,23 @@ Introduction:
 For this project, we choose the article Mamba: Linear-Time Sequence Modeling with Selective State Spaces. In the paper, Mamba proposes a new sequence modeling architecture that replaces
 Transformer attention with a “selective state space” mechanism. It keeps a running memory and decides what information is important to remember and what to ignore for each step, which 
 helps the model focus on useful parts of the input without requiring looking at everything all the time. 
+
 The two quantitative claims we want to verify in this paper are that “Mamba handles long context better than baselines,” because the paper argues that Mamba should do relatively better 
 as sequence length gets longer. Another one is “Selection is necessary for strong performance.” The paper says the selective mechanism is the key reason Mamba works well, especially 
 compared to older non-selective SSMs. 
+
 Challenges:
 1.We met some problems when installing the and setting up the environment for Mamba, because the repo says Mamba requires Linux, an NVIDIA GPU, PyTorch 1.12+, and CUDA 11.6+. We encountered 
 some errors at very beginning and needed to fix then for the environment. 
+
 2. To choose a non-selective SSM that without include other advance algorithms. In the meanwhile, it can achieve reasonable training budget.
+
 Insights:
 Are there any concrete results you can show at this point? 
+
 How is your model performing compared with expectations?
 Metrix: Accuracy, Perplexity, Model Size
+
 Plan:
 Yes, we are on track with our project. Our next step focus on the process of component B, two hypotheses and the final poster. After all of these, we are going to finalize our final 
 writeup. Besides, we plan to spend more time on to check if our hypotheses are ideal and complex enough for the project, and we will also consider about if we should change our 
