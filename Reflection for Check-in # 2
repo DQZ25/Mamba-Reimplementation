@@ -15,6 +15,11 @@ some errors at very beginning and needed to fix then for the environment.
 
 Insights:
 Are there any concrete results you can show at this point? 
+To verify the claim that Mamba handles long context efficiently, we conducted two types of experiments. First, we measured inference time using synthetic prompts of increasing length 
+(512 to 8192 tokens), which allowed us to isolate computational scaling behavior. Second, we evaluated model performance on a real-world dataset (PubMedQA), where input sequences were 
+constructed from question-answer pairs and tokenized into fixed-length blocks. This combination allowed us to assess both efficiency and predictive performance under long-context 
+conditions. The results are organized into a table comparing inference time across different context lengths for both models. If Mamba’s runtime increases more slowly than the 
+Transformer as the input grows, this provides evidence supporting the claim that Mamba scales more efficiently with long sequences.
 
 How is your model performing compared with expectations?
 Metrix: Accuracy, Perplexity, Model Size
