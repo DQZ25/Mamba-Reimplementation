@@ -27,7 +27,7 @@ Metrix: Accuracy, Perplexity, Model Size
 Plan:
 1. Download and pre-process the long-text data(IMDB) and short-text data.
 2. Choose a non-selective SSM model for text data processing;
-3. Evaluate: selective SSM is better than non-selective SSM?
+3. Evaluate: Mamba-130M achieves higher average accuracy than Pythia-160M in zero-shot evaluations. 
 4. Evaluate: Mamba have a greater advantage in a long sequence (256, 512, 1024, 2048…)
 5. Component B:  Hypothesis: Mamba will be more robust than a Transformer when irrelevant filler text is inserted into the input, because Mamba’s selective memory should learn to 
 ignore unimportant tokens.
