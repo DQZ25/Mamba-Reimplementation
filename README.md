@@ -1,5 +1,5 @@
 # An Empirical Study of Mamba
-This code is for Mamba reimplementation of CSCI1470 (Deep Learning) final project. This project and reimplementation is created by Dequan Zhang, Runming Zeng, and Yesheng Guan.
+This code is for Mamba reimplementation of CSCI1470 (Deep Learning) final project. This project and reimplementation is created by Dequan Zhang, Runmin Zeng, and Yesheng Guan.
 
 # Main Idea
 This project provides an empirical evaluation of the Mamba architecture (state space model) compared to a Transformer baseline.
