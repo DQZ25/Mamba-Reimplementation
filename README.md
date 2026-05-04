@@ -1,7 +1,9 @@
 # An Empirical Study of Mamba
 This code is for Mamba reimplementation of CSCI1470 (Deep Learning) final project. This project and reimplementation is created by Dequan Zhang, Runming Zeng, and Yesheng Guan.
 
-This project provides an empirical evaluation of the Mamba architecture (state space model) compared to a Transformer baseline. 
+# Main Idea
+This project provides an empirical evaluation of the Mamba architecture (state space model) compared to a Transformer baseline.
+Our goal is to better understand when and why Mamba works, beyond standard benchmarks.
 We reproduce key claims from the original Mamba paper and extend them with additional experiments focusing on:
 
 Long sequence efficiency
@@ -15,9 +17,7 @@ Sensitivity to prompt structure
 Ablation of selective mechanisms
 
 
-
-Our goal is to better understand when and why Mamba works, beyond standard benchmarks.
-
+# Datasets
 We use the following datasets:
 
 PubMedQA (pqa_artificial), Used for zero-shot evaluation
@@ -28,7 +28,7 @@ You can find them in the "data" folder.
 
 
 
-References:
+# References
 
 Mamba Paper: https://arxiv.org/pdf/2312.00752
 
